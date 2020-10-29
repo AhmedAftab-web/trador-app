@@ -4,7 +4,7 @@ function NavApp(){
    return (
     <div>
         <Navbar collapseOnSelect expand="md" className="navApp-style">
-  <Navbar.Brand href="#" className="text-white">ALG<span className="text-danger">O</span>SUTRAS</Navbar.Brand>
+  <Navbar.Brand href="#" className="text-white logo-text">ALG<span className="text-danger">O</span>SUTRAS</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto text-uppercase text-white">

@@ -1,0 +1,34 @@
+#faq{
+    padding: 10% 0;
+}
+#faq h1{
+    
+    color: #016a66;
+}
+.faq-content{
+   
+    /* padding: 10px; */
+    margin: 10px;
+    color: #016a66;;
+}
+.faq-content-text{
+    padding: 5px 15px 100px;
+}
+.faq-bg-img{
+    background: url('/src/images/faq.png') no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.cards-background,.card-header-background{
+    background: #fff;
+}
+.cards-background{
+    border: 2px solid #016a66 !important;
+    margin: 10px 0;
+    border-radius: 10px !important;
+}
+@media screen and (max-width:767px){
+    #faq h1{
+        text-align: center;
+    }
+}

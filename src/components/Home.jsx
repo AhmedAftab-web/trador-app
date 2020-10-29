@@ -6,6 +6,7 @@ import OurService from "./home_components/OurService";
 import OurTeam from "./home_components/OurTeam";
 import Pricing from "./home_components/Pricing"
 import Partners from "./home_components/PartnerShip"
+import FAQ from './home_components/Faq'
 
 
 
@@ -14,11 +15,13 @@ function Home() {
     <div>
       <div className="container">
         <Hero />
-      <About />
-      <OurTeam />
-      <OurService />
-      <Pricing />
-      <Partners />
+      <About className="home-components-padding"/>
+      <OurTeam className="home-components-padding"/>
+      <OurService className="home-components-padding" />
+      <Pricing className="home-components-padding"/>
+      <Partners className="home-components-padding" />
+      <FAQ className="home-components-padding" />
+      
       
       </div>
       

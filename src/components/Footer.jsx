@@ -14,6 +14,19 @@ function Footer(){
                   <Row>
                       
                       <Col lg={3}>
+                          <h1 className="text-uppercase text-white footer-logo">ALG<span className="text-danger">O</span>SUTRAS.COM</h1>
+                          <ul className="company-info-list">
+                              <li>
+                                  <p className="text-info font-weight-bold">(A Division of PITTER SHARE BROKING PRIVATE LIMITED)</p>
+                              </li>
+                              <li>
+                                  <p className="footer-major-text-clr" >228A, A J C Bose Road, Landmark 8E</p>
+                              </li>
+                              <li>
+                              <p className="footer-major-text-clr" >Kolkata(West Bengal), 700020, INDIA</p>
+                              </li>
+
+                          </ul>
                      
                       </Col>
                       <Col lg={3}>
@@ -63,6 +76,21 @@ function Footer(){
                       
 
                   </Row>
+                </div>
+                <div className="lower-footer">
+                    <Row>
+                        <Col lg="8">
+                            <span>  <i className="fa fa-copyright"></i>
+                                    Design & Develop by NUI kit 2020
+                            </span>
+                        </Col>
+                        <Col lg="2">
+                        <text>Phone: +1 5589 55488 55</text>
+                        </Col>
+                        <Col lg="2">
+                             <text>Email: enquiry@algosutras.com</text>
+                        </Col>
+                    </Row>
                 </div>
             </footer>
         </div>

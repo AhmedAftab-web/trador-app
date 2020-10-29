@@ -1,6 +1,8 @@
 import React from 'react';
 import { Row,Col } from 'react-bootstrap';
 import './styles/hero.css'
+import ArrowButton from "./hero-components/ArrowButton";
+import PlayButton from "./hero-components/PlayButton";
 function Hero(){
     return(
         <div>
@@ -29,6 +31,10 @@ function Hero(){
                                     <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit sint eaque tenetur itaque at totam facilis corporis fugit nulla temporibus sunt cumque, blanditiis quae? Reprehenderit voluptatem id assumenda expedita perferendis!</p>
                                 </Col>
                             </Row>
+                            <div className="hero-btn-container d-flex">
+                                <ArrowButton />
+                                <PlayButton />
+                            </div>
                        </Col>
                        </div>
                    </Row>

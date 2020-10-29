@@ -1,13 +1,31 @@
+#about{
+    padding: 10% 0;
+
+}
+#about h1{
+    
+    color: #016a66;
+}
 .about-content{
     background: #fafafa;
     /* padding: 10px; */
     margin: 10px;
+    color: #016a66;
 }
 .about-content-text{
-    padding: 5px;
+    padding: 5px 10px 120px;
+}
+.about-link-div{
+    padding: 20px;
+    float: right;
 }
 .about-bg-img{
     background: url('/src/images/about.JPG') no-repeat;
     background-size: cover;
     height: 100%;
+}
+@media screen and (max-width:767px){
+    #faq h1{
+        text-align: center;
+    }
 }

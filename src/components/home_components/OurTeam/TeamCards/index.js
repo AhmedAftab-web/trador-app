@@ -1,6 +1,6 @@
 import React from "react";
 import "./ServiceCards.css";
-import ServiceCard from "../ServiceCard";
+import ServiceCard from "../TeamCard";
 import "font-awesome/css/font-awesome.min.css";
 import useServiceButton from "../useServiceButton";
 import "animate.css";

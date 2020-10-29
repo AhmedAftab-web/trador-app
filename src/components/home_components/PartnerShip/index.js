@@ -4,9 +4,9 @@ import "font-awesome/css/font-awesome.min.css";
 import "animate.css";
 import {Row,Col} from "react-bootstrap"
 import ScrollAnimation from "react-animate-on-scroll";
-import Partner1 from "../../../images/partners/hp.jpg"
+import Partner1 from "../../../images/partners/hp.png"
 import Partner2 from "../../../images/partners/ebay.png"
-import Partner3 from "../../../images/partners/ibl.jpg"
+import Partner3 from "../../../images/partners/ibl.png"
 import Partner4 from "../../../images/partners/lowes.png"
 import Partner5 from "../../../images/partners/visa.png"
 function PartnerShip() {

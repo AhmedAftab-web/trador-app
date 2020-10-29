@@ -3,7 +3,7 @@ import "./OurService.css";
 // import "font-awesome/css/font-awesome.min.css";
 import "animate.css";
 import ScrollAnimation from "react-animate-on-scroll";
-import ServiceCards from "./ServiceCards";
+import ServiceCards from "./TeamCards";
 
 function Service() {
   return (

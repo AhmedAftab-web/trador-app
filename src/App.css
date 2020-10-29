@@ -36,6 +36,7 @@
     transform: rotate(360deg);
   }
 } */
+
 .navApp-style{
   background-color: #ffa82b;
   background-color: #ffa82b;
@@ -45,6 +46,11 @@
 }
 .nav-link-clr{
   color: #efefef !important;
+}
+.logo-text{
+  font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: bold;
 }
 .nav-link-btn, .nav-link-btn:focus{
   background: transparent;
@@ -58,9 +64,22 @@
   background-color: #fcbb5d;
   padding: 20px;
 }
-.footer-list-ul{
+.footer-logo{
+  font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.footer-list-ul,.company-info-list{
   list-style: none;
 }
 .footer-list-text-clr, .footer-list-link-clr, .footer-social-icons-clr{
   color:#3f7d62;
+}
+.lower-footer{
+  padding: 20px;
+  background-color: #000;
+  color: #efefef;
+}
+.home-components-padding{
+  padding: 10% 0;
 }

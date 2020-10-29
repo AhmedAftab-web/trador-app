@@ -1,7 +1,8 @@
 .team-card {
   background-color: white;
   width: 300px;
-  height: 370px;
+  height: 380px;
+  padding: 10px 15px;
   /* Shadow */
   -webkit-box-shadow: 0px 0px 12px 1px rgba(196, 200, 207, 1);
   -moz-box-shadow: 0px 0px 12px 1px rgba(196, 200, 207, 1);
@@ -11,7 +12,10 @@
   font-family: "Jost", sans-serif;
   color: #016a66;
   cursor: pointer;
-  margin-right: 5px;
+  
+  position: absolute;
+    bottom: 11px;
+    right: 110px
 }
 .team-card-title {
   font-family: "Jost", sans-serif;
@@ -32,11 +36,11 @@
 .left {
   position: absolute;
   z-index: 1;
-  left: 70px;
-  top: 30px;
+  left: 35px;
+  top: 20px;
   background-color: #f1f9ff;
 
-  height: 300px;
+  height: 335px;
   /* Shadow */
   -webkit-box-shadow: 0px 0px 12px 1px rgba(196, 200, 207, 1);
   -moz-box-shadow: 0px 0px 12px 1px rgba(196, 200, 207, 1);
@@ -46,14 +50,14 @@
   position: absolute;
   z-index: 1;
   left: 320px;
-  top: 30px;
+  top: 20px;
   background-color: #f1f9ff;
- 
-  height: 300px;
+  height: 335px;
   /* Shadow */
   -webkit-box-shadow: 0px 0px 12px 1px rgba(196, 200, 207, 1);
   -moz-box-shadow: 0px 0px 12px 1px rgba(196, 200, 207, 1);
   box-shadow: 0px 0px 12px 1px rgba(196, 200, 207, 1);
+ 
 }
 .top {
   position: relative;
