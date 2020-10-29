@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,32 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.navApp-style{
+  background-color: #ffa82b;
+  background-color: #ffa82b;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+.nav-link-clr{
+  color: #efefef !important;
+}
+.nav-link-btn, .nav-link-btn:focus{
+  background: transparent;
+  border: 2px solid #efefef;
+  color: #efefef;
+  border-radius: 0 0 10px 0;
+  outline: 0;
+  
+}
+.upper-footer{
+  background-color: #fcbb5d;
+  padding: 20px;
+}
+.footer-list-ul{
+  list-style: none;
+}
+.footer-list-text-clr, .footer-list-link-clr, .footer-social-icons-clr{
+  color:#3f7d62;
 }

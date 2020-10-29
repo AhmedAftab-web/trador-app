@@ -1,0 +1,31 @@
+.hero-banner{
+    position: relative;
+}
+.hero-banner-empty{
+    background-color: #fcbb5d;
+    padding: 40px 0;
+}
+.hero-banner-bg{
+    padding: 25% 0;
+    background: url('/src/images/cover.png') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.header-text{
+    width: 90%;
+    position: absolute;
+    top: 0;
+    padding: 0 20px;
+}
+.hero-header-border-b{
+    background: aliceblue;
+    height: 2px;
+    position: relative;
+    top: 20px;
+}
+.left-bottom-border-box{
+    height: 70px;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+
+}

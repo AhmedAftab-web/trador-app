@@ -1,0 +1,43 @@
+.service-container {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.service-header {
+  font-family: "Jost", sans-serif;
+  font-weight: 800;
+  /* text-decoration-thickness: 10px; */
+  color: #016a66;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.service-body {
+    display: flex;
+}
+.service-cards {
+    width: 50%;
+    /* height: 70vh; */
+}
+.service-bg-img {
+   background: url('/src/images/service.jpg') no-repeat;
+   background-size: cover;
+}
+/* Tablet View */
+@media only screen and (max-width: 960px) {
+  .service-icon{
+    display: none;
+  }
+  .service-cards{
+    width: 100%;
+  }
+  .service-header{
+    width: 100%;
+    margin-left: 0px;
+    align-items: center;
+  }
+}

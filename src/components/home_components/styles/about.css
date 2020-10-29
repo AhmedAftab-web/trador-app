@@ -1,0 +1,13 @@
+.about-content{
+    background: #fafafa;
+    /* padding: 10px; */
+    margin: 10px;
+}
+.about-content-text{
+    padding: 5px;
+}
+.about-bg-img{
+    background: url('/src/images/about.JPG') no-repeat;
+    background-size: cover;
+    height: 100%;
+}

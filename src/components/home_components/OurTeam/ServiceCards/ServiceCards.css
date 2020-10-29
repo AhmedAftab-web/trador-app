@@ -1,0 +1,50 @@
+.team-cards-background {
+  width: 100%;
+  padding: 12%;
+  position: absolute;
+  background: #fcbb5d;
+  top: 40px;
+}
+.team-card-img{
+  border-radius: 50%;
+  width: 100px;
+}
+.team-cards-container{
+  position: relative;
+  width: 50%;
+  /* margin: auto 25%; */
+  left: 23%;
+}
+/* .left-right-btn {
+  position: absolute;
+  z-index: 4;
+  top: 400px;
+  left: 250px;
+} */
+.team-cards-container > i {
+ 
+  cursor: pointer;
+  position: relative;
+  z-index: 3;
+  font-size: 40px;
+  /* top: 380px; */
+  left: 50%;
+  margin: 0px 2px;
+}
+
+/* Tablet View */
+@media only screen and (max-width: 960px) {
+  .team-cards-container {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .team-cards-container > i {
+    display: none;
+  }
+}
+
+
