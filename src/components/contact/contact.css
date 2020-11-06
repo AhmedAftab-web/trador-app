@@ -7,6 +7,9 @@
 .icon-input-holder i{
     color: #707070;
 }
+.contact-card{
+    padding: 100px 0;
+}
 .contact-form-input{
     width: 90%;
     border: 0;

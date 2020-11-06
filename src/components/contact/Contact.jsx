@@ -6,6 +6,7 @@ function ContactPage(){
         <div>
             <div class="container">
              <div class="container-fluid">
+                <div className="contact-card">
                 <h1><span class="contact-heading text-uppercase">Contact Us</span></h1>
                 <div class="row pt-4">
                     <div class="col-lg-7">
@@ -72,6 +73,7 @@ function ContactPage(){
                     </div>
                         
                  </div>
+                </div>
                 </div>
              </div>
       

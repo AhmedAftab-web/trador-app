@@ -5,7 +5,8 @@ function AboutPage(){
     return(
         <div>
             <div class="container">
-                <h1 class="about-h">About</h1>
+              <div className="aboutpage">
+              <h1 class="about-h">About</h1>
                 <div class="about-content">
                     <div class="about-cover-img">
 
@@ -59,6 +60,7 @@ function AboutPage(){
                     </div>
 
                 </div>
+              </div>
             </div>
         </div>
     )
