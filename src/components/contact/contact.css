@@ -1,0 +1,47 @@
+.contact-heading{
+    padding: 5px;
+    color: #707070;
+    border-bottom: 5px solid #707070;
+    
+}
+.icon-input-holder i{
+    color: #707070;
+}
+.contact-form-input{
+    width: 90%;
+    border: 0;
+    outline: 0;
+    padding: 5px;
+}
+.contact-form-input-lg{
+    width: 95%;
+    border: 0;
+    outline: 0;
+    padding: 5px;
+}
+.icon-input-holder{
+    border-bottom: 2px solid #707070;
+}
+.textarea-contact{
+    width: 100%;
+    resize: none;
+    padding: 10px;
+}
+.contact-submit-btn{
+    background-color: #fff;
+    padding: 5px 25px;
+    border-radius: 25px;
+    border: 2px solid #707070;
+    outline: none;
+}
+.location-container{
+    padding: 10px 5px;
+    background-color: #f2f1f1;
+    color: #707070;
+}
+.location-container tr{
+    vertical-align: baseline;
+}
+.table-col-text-clr{
+    color: #acb6be;
+}

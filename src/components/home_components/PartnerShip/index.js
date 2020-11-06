@@ -11,7 +11,7 @@ import Partner4 from "../../../images/partners/lowes.png"
 import Partner5 from "../../../images/partners/visa.png"
 function PartnerShip() {
   return (
-    <div style={{ width: "100%", display:"flex",flexDirection:"column", alignItems:"center" }}>
+    <div>
       <div className="partnership-title">
         <ScrollAnimation
           animateOnce={true}

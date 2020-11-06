@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from  'react-router-dom'
 import {Container,Row,Col} from 'react-bootstrap';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -14,7 +14,9 @@ function Footer(){
                   <Row>
                       
                       <Col lg={3}>
+                          <Link className="footer-logo" to="/">
                           <h1 className="text-uppercase text-white footer-logo">ALG<span className="text-danger">O</span>SUTRAS.COM</h1>
+                          </Link>
                           <ul className="company-info-list">
                               <li>
                                   <p className="text-info font-weight-bold">(A Division of PITTER SHARE BROKING PRIVATE LIMITED)</p>
@@ -33,11 +35,33 @@ function Footer(){
                       <div className="footer-list-text-conatiner footer-list-text-clr">
                               <h5>Useful Link</h5>
                               <ul className="footer-list-ul font-weight-bold">
-                                  <li><span>></span><a className="footer-list-link-clr" href="#">Home</a></li>
-                                  <li><span>> </span><a className="footer-list-link-clr" href="#">About us</a></li>
-                                  <li><span>> </span><a className="footer-list-link-clr" href="#">Services</a></li>
-                                  <li><span>> </span><a className="footer-list-link-clr" href="#">Terms of service</a></li>
-                                  <li><span>> </span><a className="footer-list-link-clr" href="#">Privacy policy</a></li>
+                                  <li>
+                                      <Link className="footer-list-link-clr" to="/">
+                                        <span> > </span>Home
+                                      </Link>
+                                     </li>
+                                     <li>
+                                      <Link className="footer-list-link-clr" to="/about">
+                                        <span> > </span>About us
+                                      </Link>
+                                     </li>
+                                     <li>
+                                      <Link className="footer-list-link-clr" >
+                                        <span> > </span>Services
+                                      </Link>
+                                     </li>
+                                     <li>
+                                      <Link className="footer-list-link-clr" >
+                                        <span> > </span>Terms of service
+                                      </Link>
+                                     </li>
+                                     <li>
+                                      <Link className="footer-list-link-clr">
+                                        <span> > </span>Privacy policy
+                                      </Link>
+                                     </li>
+                                 
+                                  
                                   
 
                               </ul>
@@ -47,10 +71,10 @@ function Footer(){
                       <div className="footer-list-text-conatiner footer-list-text-clr ">
                               <h5>Our services</h5>
                               <ul className="footer-list-ul text-capitalize font-weight-bold ">
-                                  <li><span>> </span><a className="footer-list-link-clr" href="#">Algo Strategy Guidance </a></li>
-                                  <li><span>> </span><a className="footer-list-link-clr" href="#">Automate Algo Trading  </a></li>
-                                  <li><span>> </span><a className="footer-list-link-clr" href="#">Backtesting Algo Strategies </a></li>
-                                  <li><span>> </span><a className="footer-list-link-clr" href="#">Trading Software development </a></li>
+                                    <li className="footer-list-link-clr"><span> > </span>Algo Strategy Guidance</li>
+                                    <li className="footer-list-link-clr"><span> > </span>Automate Algo Trading</li>
+                                    <li className="footer-list-link-clr"><span> > </span>Backtesting Algo Strategies</li>
+                                    <li className="footer-list-link-clr"><span> > </span>Trading Software development</li>
 
                               </ul>
                           </div>

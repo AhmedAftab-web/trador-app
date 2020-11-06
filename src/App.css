@@ -51,6 +51,10 @@
   font-size: 30px;
     letter-spacing: 3px;
     font-weight: bold;
+    cursor: pointer;
+}
+.logo-text:hover{
+  text-decoration: none;
 }
 .nav-link-btn, .nav-link-btn:focus{
   background: transparent;
@@ -69,11 +73,22 @@
     letter-spacing: 3px;
     font-weight: bold;
 }
+.footer-logo:hover{
+  text-decoration: none !important;
+}
 .footer-list-ul,.company-info-list{
   list-style: none;
 }
 .footer-list-text-clr, .footer-list-link-clr, .footer-social-icons-clr{
   color:#3f7d62;
+}
+.footer-list-text-clr, .footer-list-link-clr:hover, .footer-social-icons-clr:hover{
+  color:#3f7d62 !important;
+  text-decoration: none !important;
+
+}
+.footer-list-link-clr, .footer-social-icons-clr{
+  cursor: pointer;
 }
 .lower-footer{
   padding: 20px;
